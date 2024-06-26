@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    text-align:center;
+    background-color:gray;
+}
+
+h1{
+    background-color:black;
+    color:white;
+    height:5rem;
+    line-height:5rem;
+}
+
+.choices{
+    display:flex;
+    justify-content:center;
+    gap:3rem;  
+
+}
+
+.choice{
+    height:175px;
+    width:175px;
+    margin-top:5rem;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    border-radius:50%;
+}
+
+
+img{
+    height:155px;
+    width:155px;
+    border-radius:50%;
+    object-fit:cover;
+    text-align:center;
+}
+
+.name{
+    display:flex;
+    justify-content:center;
+    gap:9rem;
+    font-size:2rem;
+}
+
+
+.Scores{
+    margin-top:4rem;
+    display:flex;
+    justify-content:center;
+    gap:5rem;
+    font-size:2rem;
+}
+.scores_name{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+    font-size:1.7rem;
+}
+
+
+.result{
+    margin-top:0.75rem;
+}
+
+
+#winner{
+    background-color:black;
+    color:white;
+    font-size:2rem;
+    border-radius:0.5rem;
+    display:inline;
+}
+
+.choice:hover{
+    cursor:pointer;
+    background-color:black;
+}
